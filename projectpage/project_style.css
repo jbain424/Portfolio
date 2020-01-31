@@ -1,0 +1,91 @@
+.navbar {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resume {
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+.navbar.resume {
+  font-family: "Reem Kufi", sans-serif;
+  padding-top: 20px;
+}
+
+.navbar.logo {
+  justify-content: center;
+}
+
+.navbar.contact {
+  font-family: "Reem Kufi", sans-serif;
+  padding-top: 20px;
+}
+
+.projectContainer {
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+}
+
+#info {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 14px;
+}
+
+#title {
+  color: #e61d59;
+  font-family: "DM Serif Display", serif;
+  font-size: 30px;
+}
+
+.wireframes {
+  padding-top: 15px;
+}
+
+h2 {
+  color: #e61d59;
+  font-family: "DM Serif Display", serif;
+}
+
+h3 {
+  color: #e61d59;
+}
+
+.iPhones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  padding-top: 20px;
+}
+
+.colorsType {
+  padding-top: 20px;
+}
+
+.mockups {
+  padding-bottom: 40px;
+}
+
+.footer {
+  font-family: "DM Serif Display", serif;
+  font-size: 12px;
+  padding: 0 auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e61d59;
+  color: white;
+  text-align: center;
+}
