@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
 .navbar {
   margin: 0;
   display: grid;
@@ -88,4 +98,46 @@ h3 {
   background-color: #e61d59;
   color: white;
   text-align: center;
+}
+
+/* Media Queries */
+
+@media (min-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 3em;
+    grid-column-gap: 15px;
+  }
+
+  .navbar {
+    
+  }
+
+  .leftSide {
+    position: fixed;
+  }
+
+  .leftSide #title {
+    font-size: 35px;
+  }
+
+  .leftSide #info {
+    font-size: 18px;
+    padding-right: 1em;
+    word-wrap: inherit;
+  }
+
+  .rightSide {
+    grid-column: 2/3;
+  }
+
+  .footer a {
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
 }
