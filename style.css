@@ -116,6 +116,7 @@ nav img {
   grid-gap: 5px;
   justify-content: center;
   padding-top: 10px;
+  padding-bottom: 100px;
 }
 
 #aboutMeTitle {
@@ -291,6 +292,10 @@ nav img {
   #hello_btn {
     background-color: #e61d59;
     text-decoration: none;
+  }
+  #someOfMyWork {
+    background-color: whitesmoke;
+
   }
   .myWork {
     display: grid;
