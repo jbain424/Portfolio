@@ -22,22 +22,40 @@ a {
 a:visited {
   color: black;
 }
-.navbarresume {
+
+.navbar {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
   font-family: "Reem Kufi", sans-serif;
+  color: black;
+  text-decoration: none;
+  background-color: white;
   padding-top: 20px;
+  padding-right: 20px;
+  height: 75px;
+  justify-content: space-evenly;
 }
 
-.navbarlogo {
-  justify-content: center;
-}
-
-.navbarcontact {
-  font-family: "Reem Kufi", sans-serif;
+nav a {
+  text-align: center;
   padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.projectContainer {
-  padding: 0px 20px 0px 20px;
+nav img {
+  margin: 0 auto;
+}
+
+.container {
+  padding: 100px 20px 100px 20px;
   text-align: left;
 }
 
@@ -83,15 +101,14 @@ h3 {
 
 .footer {
   font-size: 12px;
-  padding: 10px;
-
+  padding: 0 auto;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #e61d59;
   color: white;
   text-align: center;
-  font-family: "DM Serif Display", serif;
 }
 
 /* Media Queries */
@@ -159,14 +176,13 @@ h3 {
     word-wrap: inherit;
   }
 
-  .framework_logos{
-    
+  .framework_logos {
   }
 
   .rightSide {
     grid-column: 2/3;
     padding-top: 40px;
-    grid-row-gap: 40px
+    grid-row-gap: 40px;
   }
 
   .iPhones {
