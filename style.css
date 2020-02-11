@@ -57,7 +57,7 @@ nav img {
   padding: 0px 25px 0px 25px;
 }
 
-.hello_btn{
+.hello_btn {
   padding-top: 50px;
   justify-items: center;
 }
@@ -152,7 +152,6 @@ nav img {
 /* Media Queries */
 
 @media (min-width: 700px) {
-  
   .intro {
     display: grid;
     grid-template-rows: repeat(3, 150px);
@@ -225,16 +224,15 @@ nav img {
 
   .footer a {
     padding: 30px;
-    font-size: 15px; text-align: center;
+    font-size: 15px;
+    text-align: center;
     font-family: "Reem Kufi", sans-serif;
     font-size: 14px;
     text-align: center;
   }
 }
 
-
 @media (min-width: 1000px) {
-
   html,
   body {
     max-width: 100%;
@@ -295,7 +293,6 @@ nav img {
   }
   #someOfMyWork {
     background-color: whitesmoke;
-
   }
   .myWork {
     display: grid;
@@ -336,8 +333,6 @@ nav img {
     justify-content: center;
     margin: auto;
   }
-
-
 
   .footer {
     font-size: 15px;
