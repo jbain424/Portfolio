@@ -25,6 +25,7 @@ nav {
   padding-left: 25px;
   height: 75px;
   justify-content: space-evenly;
+  font-size: 12px;
 }
 
 nav a {
@@ -51,20 +52,42 @@ nav img {
 }
 
 #introInfo {
-  word-wrap: break-word;
+  word-wrap: none;
   font-family: "Reem Kufi", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   padding: 0px 25px 0px 25px;
 }
 
+.button {
+  padding-top: 30px;
+}
+
 .hello_btn {
-  padding-top: 50px;
-  justify-items: center;
+  background-color: #e61d59;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 4px 16px;
+  text-shadow: 0px 1px 0px #b23e35;
+  box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+  background: linear-gradient(to bottom, #e61d59 5%, #e4685d 100%);
+  color: white;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.hello_btn:hover {
+  background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  background-color: #e61d59;
+}
+
+.myWorkContainer {
+  background-color: #f1e7e5;
 }
 
 .myWork {
   justify-items: center;
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #someOfMyWork {
@@ -73,6 +96,7 @@ nav img {
   font-family: "DM Serif Display", serif;
   font-size: 24px;
   text-align: center;
+  background-color: #f1e7e5;
 }
 
 #myWorkTitle {
@@ -89,8 +113,16 @@ nav img {
   text-align: center;
 }
 
-#btn {
+.proj_btn {
   align-content: center;
+  background-color: #e61d59;
+  text-decoration: none;
+  color: white;
+  font-family: "Reem Kufi", sans-serif;
+  border-radius: 6px;
+  padding: 4px 16px;
+  text-shadow: 0px 1px 0px #b23e35;
+  box-shadow: inset 0px 1px 0px 0px #f7c5c0;
 }
 
 .interestsContainer {
@@ -109,34 +141,6 @@ nav img {
   margin-top: 30px;
 }
 
-.aboutMe {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 3fr;
-  grid-gap: 5px;
-  justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 100px;
-}
-
-#aboutMeTitle {
-  grid-column: 1/3;
-  color: #e61d59;
-  font-family: "DM Serif Display", serif;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-#aboutMeInfo {
-  grid-column: 1/3;
-  color: black;
-  font-family: "Reem Kufi", sans-serif;
-  font-size: 14px;
-  text-align: center;
-  padding: 0px 20px 0px 20px;
-}
-
 .footer {
   font-size: 12px;
   padding: 0 auto;
@@ -147,11 +151,45 @@ nav img {
   background-color: #e61d59;
   color: white;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Media Queries */
 
 @media (min-width: 700px) {
+  .navbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-family: "Reem Kufi", sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 75px;
+    justify-content: space-evenly;
+    font-size: 18px;
+  }
+
+  nav a {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  nav img {
+    margin: 0 auto;
+  }
   .intro {
     display: grid;
     grid-template-rows: repeat(3, 150px);
@@ -163,21 +201,38 @@ nav img {
 
   #introInfo {
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     padding: 0 2em 0 2em;
   }
 
-  #hello_btn {
+  /* .button {
+    padding-top: 30px;
+  } */
+
+  .hello_btn {
     background-color: #e61d59;
     text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    padding: 6px 20px;
+    text-shadow: 0px 1px 0px #b23e35;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #e61d59 5%, #e4685d 100%);
+    color: white;
+    font-family: "Reem Kufi", sans-serif;
+  }
+
+  .hello_btn:hover {
+    background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+    background-color: #e61d59;
   }
   .myWork {
     display: grid;
-    background-color: whitesmoke;
+    background-color: #f1e7e5;
     padding: 2em;
     font-family: "Reem Kufi", sans-serif;
     font-size: 14px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 20px 20px;
     text-align: center;
   }
 
@@ -192,12 +247,13 @@ nav img {
     width: 100%;
     height: auto;
     justify-content: center;
+    padding-top: 25px;
   }
 
-  .button {
+  /* .button {
     display: block;
     justify-content: center;
-  }
+  } */
 
   .interestsContainer {
     display: grid;
@@ -214,7 +270,7 @@ nav img {
   }
 
   .aboutMe {
-    background-color: whitesmoke;
+    background-color: #f1e7e5;
     padding: 4em;
   }
 
@@ -238,6 +294,7 @@ nav img {
     max-width: 100%;
     overflow-x: hidden;
     padding: 0;
+    padding-bottom: 75px;
     margin: 0;
   }
 
@@ -259,6 +316,7 @@ nav img {
     padding-left: 25px;
     height: 75px;
     justify-content: space-evenly;
+    font-size: 14px;
   }
 
   nav a {
@@ -287,17 +345,35 @@ nav img {
     padding: 0 2em 0 2em;
   }
 
-  #hello_btn {
+  .button {
+    padding-top: 30px;
+  }
+
+  .hello_btn {
     background-color: #e61d59;
     text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    padding: 6px 20px;
+    text-shadow: 0px 1px 0px #b23e35;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #e61d59 5%, #e4685d 100%);
+    color: white;
+    font-family: "Reem Kufi", sans-serif;
   }
+
+  .hello_btn:hover {
+    background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+    background-color: #e61d59;
+  }
+
   #someOfMyWork {
-    background-color: whitesmoke;
+    background-color: #f1e7e5;
   }
   .myWork {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: whitesmoke;
+    background-color: #f1e7e5;
     padding: 2em;
     grid-column-gap: 10px;
   }
@@ -315,9 +391,16 @@ nav img {
     justify-content: center;
   }
 
-  .button {
-    display: block;
-    justify-content: center;
+  .proj_btn {
+    align-content: center;
+    background-color: #e61d59;
+    text-decoration: none;
+    color: white;
+    font-family: "Reem Kufi", sans-serif;
+    border-radius: 6px;
+    padding: 4px 16px;
+    text-shadow: 0px 1px 0px #b23e35;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
   }
 
   .interestsContainer {
@@ -340,5 +423,6 @@ nav img {
     font-family: "DM Serif Display", serif;
     font-size: 14px;
     position: fixed;
+    letter-spacing: 0.5px;
   }
 }
