@@ -38,6 +38,37 @@ nav img {
   margin: 0 auto;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
 .leftside {
-    padding: 100px;
+  padding: 75px;
+}
+
+.pic img {
+  border-radius: 70%;
+  padding-top: 40px;
+}
+
+.rightside {
+  padding: 100px;
+}
+
+.rightside p {
+  font-size: 25px;
+}
+
+.footer {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  position: fixed;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }

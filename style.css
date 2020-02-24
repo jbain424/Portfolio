@@ -339,14 +339,14 @@ nav img {
     grid-template-rows: repeat(3, 150px);
   }
   #hi {
-    font-size: 40px;
-    padding: 0 2em 0 2em;
+    font-size: 35px;
+    padding: 0 3em 0 3em;
   }
 
   #introInfo {
     color: black;
-    font-size: 25px;
-    padding: 0 2em 0 2em;
+    font-size: 20px;
+    padding: 0 3em 0 3em;
   }
 
   .button {
