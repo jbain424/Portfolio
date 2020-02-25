@@ -42,24 +42,35 @@ nav img {
 .intro {
   padding-top: 100px;
   display: grid;
-  grid-template-rows: 75px 100px 40px;
+  grid-template-rows: 100px 75px 50px;
   text-align: center;
 }
 
-#Hi {
+.intro img {
+  align-items: center;
+  border-radius: 300px;
+  width: 250px;
+  padding-left: 60px;
+}
+
+#hi {
   font-family: "DM Serif Display", serif;
-  height: 20px;
+  height: 100px;
+  padding-top: 100px;
+  padding-left: 25px;
+  color: #e61d59;
 }
 
 #introInfo {
   word-wrap: none;
   font-family: "Reem Kufi", sans-serif;
-  font-size: 14px;
-  padding: 0px 25px 0px 25px;
+  font-size: 15px;
+  padding: 115px 25px 0px 25px;
 }
 
-.button {
+.btn {
   padding-top: 30px;
+  justify-content: center;
 }
 
 .hello_btn {
@@ -72,16 +83,12 @@ nav img {
   background: linear-gradient(to bottom, #e61d59 5%, #e4685d 100%);
   color: white;
   font-family: "Reem Kufi", sans-serif;
+  justify-content: center;
 }
 
 .hello_btn:hover {
   background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
   background-color: #e61d59;
-}
-
-.myWorkContainer {
-  background-color: #f1e7e5;
-
 }
 
 .myWork {
@@ -97,7 +104,6 @@ nav img {
   font-family: "DM Serif Display", serif;
   font-size: 24px;
   text-align: center;
-  background-color: #f1e7e5;
 }
 
 #myWorkTitle {
@@ -124,6 +130,7 @@ nav img {
   padding: 4px 16px;
   text-shadow: 0px 1px 0px #b23e35;
   box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+  justify-content: center;
 }
 
 .interestsContainer {
@@ -334,19 +341,34 @@ nav img {
     margin: 0 auto;
   }
 
-  .intro {
+  .container {
     display: grid;
-    grid-template-rows: repeat(3, 150px);
-  }
-  #hi {
-    font-size: 35px;
-    padding: 0 3em 0 3em;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 0px;
+    padding: 0px 25px 0px 25px;
   }
 
-  #introInfo {
+  .rightside {
+    padding: 200px 30px 0px 0px;
+  }
+
+  .intro img {
+    width: 400px;
+  }
+
+  .hi {
+    grid-row: 2/2;
+    color: #e61d59;
+    font-family: "DM Serif Display", serif;
+    font-size: 45px;
+  }
+
+  .introInfo {
     color: black;
     font-size: 20px;
-    padding: 0 3em 0 3em;
+    padding-right: 30px;
+
+    font-family: "Reem Kufi", sans-serif;
   }
 
   .button {
@@ -371,15 +393,20 @@ nav img {
     background-color: #e61d59;
   }
 
+  .myWorkContainer {
+    padding-top: 650px;
+  }
+
   #someOfMyWork {
     background-color: #f1e7e5;
+    padding: auto;
   }
   .myWork {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #f1e7e5;
-    padding: 2em;
-    grid-column-gap: 10px;
+    padding: 1em;
+    grid-column-gap: 15px;
   }
 
   #myWorkTitle {
@@ -425,13 +452,12 @@ nav img {
     text-align: center;
     font-family: "DM Serif Display", serif;
     position: fixed;
-    
   }
 
-.footer p {
-  text-align: center;
-  font-family: "DM Serif Display", serif;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-}
+  .footer p {
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
 }
