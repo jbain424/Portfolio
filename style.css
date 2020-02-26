@@ -39,6 +39,10 @@ nav img {
   margin: 0 auto;
 }
 
+.container{
+  margin: 0 auto;
+}
+
 .intro {
   padding-top: 100px;
   display: grid;
@@ -53,37 +57,41 @@ nav img {
   padding-left: 60px;
 }
 
-#hi {
+.hi {
   font-family: "DM Serif Display", serif;
   height: 100px;
   padding-top: 100px;
   padding-left: 25px;
   color: #e61d59;
+  font-size: 30px;
 }
 
-#introInfo {
+.introInfo {
   word-wrap: none;
   font-family: "Reem Kufi", sans-serif;
-  font-size: 15px;
-  padding: 115px 25px 0px 25px;
+  font-size: 17px;
+  padding: 70px 25px 0px 25px;
 }
 
 .btn {
-  padding-top: 30px;
-  justify-content: center;
+  padding-top: 10px;
+  padding-left: 7%;
+  margin: 0 auto;
+  
 }
 
 .hello_btn {
   background-color: #e61d59;
   text-decoration: none;
   border-radius: 6px;
-  padding: 4px 16px;
+  padding: 2px 10px;
   text-shadow: 0px 1px 0px #b23e35;
   box-shadow: inset 0px 1px 0px 0px #f7c5c0;
   background: linear-gradient(to bottom, #e61d59 5%, #e4685d 100%);
   color: white;
   font-family: "Reem Kufi", sans-serif;
-  justify-content: center;
+  margin: 0 auto;
+  font-size: 14px;
 }
 
 .hello_btn:hover {
@@ -91,11 +99,14 @@ nav img {
   background-color: #e61d59;
 }
 
+.myWorkContainer {
+  margin: 0 auto;
+
+}
+
 .myWork {
   justify-items: center;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 30px 10px 0px 10px;
 }
 
 #someOfMyWork {
@@ -120,8 +131,11 @@ nav img {
   text-align: center;
 }
 
+.myWorkImage {
+  padding-top: 30px;
+}
+
 .proj_btn {
-  align-content: center;
   background-color: #e61d59;
   text-decoration: none;
   color: white;
@@ -130,7 +144,11 @@ nav img {
   padding: 4px 16px;
   text-shadow: 0px 1px 0px #b23e35;
   box-shadow: inset 0px 1px 0px 0px #f7c5c0;
-  justify-content: center;
+  margin: 0 auto;
+  font-size: 10px;
+ text-align: center;
+
+  
 }
 
 .interestsContainer {

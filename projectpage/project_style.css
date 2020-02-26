@@ -101,6 +101,10 @@ h3 {
   font-family: "Reem Kufi", sans-serif;
 }
 
+#CT-img img{
+  width: 350px;
+}
+
 .mockups {
   padding-bottom: 40px;
 }
