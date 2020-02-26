@@ -54,6 +54,12 @@ nav img {
   margin: 0 auto;
 }
 
+.framework_logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
 .container {
   padding: 100px 20px 100px 20px;
   text-align: left;
@@ -94,6 +100,14 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 10px;
   padding-top: 20px;
+}
+
+.webGifs {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 30px;
+  padding-top: 30px;
+
 }
 
 .colorsType {
