@@ -92,3 +92,20 @@ button {
 .follow a {
     padding-left: 30px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e61d59;
+  }
+  
+  .footer p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 12px;
+  }
