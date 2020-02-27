@@ -4,7 +4,6 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
- 
 }
 
 .navbar {
@@ -12,7 +11,6 @@ body {
   top: 0;
   width: 100%;
   position: fixed;
-  
 }
 
 nav {
@@ -43,69 +41,152 @@ nav img {
 }
 
 .sayhello {
+  font-family: "DM Serif Display", serif;
+  height: 75px;
+  padding-top: 120px;
+  padding-left: 15px;
+  color: #e61d59;
+  font-size: 50px;
+}
+
+.hello_form {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hello_form input {
+  width: 300px;
+  background-color: #f7f7f7;
+  border: hidden;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.hello_form textarea {
+  padding-top: 5px;
+  width: 300px;
+  height: 100px;
+  background-color: #f7f7f7;
+  border: hidden;
+  font-size: 20px;
+  font-family: "Reem Kufi", sans-serif;
+  padding-bottom: 5px;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  font-size: 15px;
+}
+
+.follow h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.follow a {
+  padding-left: 30px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e61d59;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 12px;
+}
+
+@media (min-width: 1000px) {
+  nav a {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  nav img {
+    margin: 0 auto;
+  }
+
+  .sayhello {
     font-family: "DM Serif Display", serif;
     height: 75px;
     padding-top: 120px;
-    padding-left: 15px;
+    padding-left: 40px;
     color: #e61d59;
-    font-size: 50px;
-}
+    font-size: 70px;
+  }
 
-.hello_form{
-    padding-left: 30px;
-    padding-right: 30px;
-}
+  .hello_form{
+    padding-top: 50px;
+    padding-left: 50px;
+  }
 
-.hello_form input{
-    width: 300px;
+  .hello_form input {
+    width: 500px;
     background-color: #f7f7f7;
     border: hidden;
     padding-bottom: 5px;
     font-size: 20px;
     font-family: "Reem Kufi", sans-serif;
-}
+  }
 
-.hello_form textarea{
+  .hello_form textarea {
     padding-top: 5px;
-    width: 300px;
+    width: 500px;
     height: 100px;
     background-color: #f7f7f7;
     border: hidden;
     font-size: 20px;
     font-family: "Reem Kufi", sans-serif;
     padding-bottom: 5px;
-}
+  }
 
-button {
+  button {
     background-color: grey;
     color: white;
     font-size: 15px;
-}
+  }
 
-.follow h1 {
+ h1 {
     font-family: "DM Serif Display", serif;
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 30px;
-}
+  }
 
-.follow a {
-    padding-left: 30px;
-}
+  .follow  {
+    padding-left: 20px;
+  }
 
-.footer {
+  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #e61d59;
   }
-  
+
   .footer p {
     color: white;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: "Reem Kufi", sans-serif;
-    font-size: 12px;
+    font-family: "DM Serif Display", serif;
+    font-size: 15px;
   }
+}
