@@ -115,8 +115,16 @@ nav img {
     margin: 0 auto;
   }
 
+  .aboutMe {
+    font-family: "DM Serif Display", serif;
+    height: 75px;
+    padding-top: 120px;
+    padding-left: 40px;
+    color: #e61d59;
+    font-size: 70px;
+  }
   .bio {
-    padding: 150px 300px 100px 300px;
+    padding: 20px 300px 100px 300px;
     text-align: left;
   }
   
@@ -131,15 +139,15 @@ nav img {
     bottom: 0;
     width: 100%;
     background-color: #e61d59;
+  }
+
+  .footer p {
     color: white;
     text-align: center;
-  }
-  
-  .footer p {
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: "DM Serif Display", serif;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 15px;
   }
 
   

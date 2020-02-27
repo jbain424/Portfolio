@@ -437,15 +437,19 @@ nav img {
   }
 
   .footer {
-    text-align: center;
-    font-family: "DM Serif Display", serif;
     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e61d59;
   }
 
   .footer p {
+    color: white;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: "DM Serif Display", serif;
     font-size: 15px;
-    letter-spacing: 0.5px;
   }
 }
