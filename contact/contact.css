@@ -81,3 +81,14 @@ button {
     color: white;
     font-size: 15px;
 }
+
+.follow h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.follow a {
+    padding-left: 30px;
+}
