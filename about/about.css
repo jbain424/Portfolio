@@ -41,13 +41,18 @@ nav img {
   margin: 0 auto;
 }
 
-.container {
-
+.aboutMe {
+  font-family: "DM Serif Display", serif;
+  /* height: 75px; */
+  padding-top: 120px;
+  padding-left: 15px;
+  color: #e61d59;
+  font-size: 50px;
 }
 
 
 .bio {
-  padding: 100px 50px 50px 50px;
+  padding: 0px 50px 50px 50px;
   text-align: left;
 }
 
@@ -149,6 +154,4 @@ nav img {
     font-family: "DM Serif Display", serif;
     font-size: 15px;
   }
-
-  
 }
