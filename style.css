@@ -90,12 +90,10 @@ nav img {
 
 .myWorkContainer {
   margin: 0 auto;
-  
 }
 
 .myWork {
   justify-items: center;
-  
 }
 
 #someOfMyWork {
@@ -132,15 +130,13 @@ nav img {
   padding-left: 20px;
 }
 
-.proj_btn a{
+.proj_btn a {
   text-decoration: none;
   background-color: #e61d59;
   padding: 6px;
   color: white;
   font-size: 13px;
   font-family: "Reem Kufi", sans-serif;
-  
-  
 }
 
 .proj_btn: a {
@@ -407,7 +403,7 @@ nav img {
   }
 
   #myWorkTitle {
-    text-align: center;
+    text-align: left;
     color: #e61d59;
     font-size: 20px;
   }
@@ -420,8 +416,23 @@ nav img {
   }
 
   .proj_btn {
+    /* padding-left: 20px; */
   }
 
+  .proj_btn a {
+    text-decoration: none;
+    background-color: #e61d59;
+    padding: 6px;
+    color: white;
+    font-size: 13px;
+    font-family: "Reem Kufi", sans-serif;
+    justify-content: left;
+  }
+
+  .proj_btn:hover a {
+    background-color: black;
+  }
+  
   .interestsContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
