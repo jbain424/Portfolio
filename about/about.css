@@ -113,7 +113,7 @@ nav img {
     padding-top: 20px;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   nav img {
@@ -151,7 +151,8 @@ nav img {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: "DM Serif Display", serif;
-    font-size: 15px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
   }
 }

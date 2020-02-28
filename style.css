@@ -71,10 +71,12 @@ nav img {
   font-family: "Reem Kufi", sans-serif;
   font-size: 17px;
   padding: 70px 25px 0px 25px;
+  letter-spacing: .2px;
 }
 
 .hello_btn {
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .hello_btn a {
@@ -90,19 +92,25 @@ nav img {
 
 .myWorkContainer {
   margin: 0 auto;
+  background-color: #f1e7e5;
+  padding-bottom: 30px;
 }
+
+
+
 
 .myWork {
   justify-items: center;
 }
 
 #someOfMyWork {
-  padding-top: 50px;
   color: #e61d59;
   font-family: "DM Serif Display", serif;
   font-size: 26px;
   text-align: left;
   padding-left: 25px;
+  background-color: #f1e7e5;
+  padding-top: 20px;
 }
 
 #myWorkTitle {
@@ -123,7 +131,7 @@ nav img {
 }
 
 .myWorkImage {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .proj_btn {
@@ -157,7 +165,7 @@ nav img {
   font-family: "DM Serif Display", serif;
   font-size: 26px;
   text-align: left;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding-left: 25px;
   padding-top: 40px;
 }
@@ -392,13 +400,13 @@ nav img {
 
   #someOfMyWork {
     background-color: #f1e7e5;
-    padding: auto;
+    padding: 30px 30px 10px 30px;
   }
   .myWork {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #f1e7e5;
-    padding: 1em;
+    height: 450px;
     grid-column-gap: 15px;
   }
 
@@ -412,11 +420,10 @@ nav img {
     display: block;
     width: 100%;
     height: auto;
-    justify-content: center;
   }
 
   .proj_btn {
-    /* padding-left: 20px; */
+    text-align: left;
   }
 
   .proj_btn a {
@@ -432,7 +439,7 @@ nav img {
   .proj_btn:hover a {
     background-color: black;
   }
-  
+
   .interestsContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -460,7 +467,8 @@ nav img {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: "DM Serif Display", serif;
-    font-size: 15px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
   }
 }
