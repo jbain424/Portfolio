@@ -67,15 +67,16 @@ nav img {
   bottom: 0;
   width: 100%;
   background-color: #e61d59;
-  color: white;
-  text-align: center;
 }
 
 .footer p {
-  font-family: "DM Serif Display", serif;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Reem Kufi", sans-serif;
   font-size: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
+  letter-spacing: 0.4px;
 }
 
 
