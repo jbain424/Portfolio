@@ -472,3 +472,173 @@ nav img {
     letter-spacing: 0.4px;
   }
 }
+/* 
+MEDIA <800 */
+
+
+@media (min-width: 800px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    padding-bottom: 75px;
+    margin: 0;
+  }
+
+  .navbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-family: "Reem Kufi", sans-serif;
+    color: black;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 75px;
+    justify-content: space-evenly;
+    font-size: 18px;
+  }
+
+  nav a {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  nav img {
+    margin: 0 auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 0px;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .rightside {
+    padding: 100px 30px 0px 0px;
+  }
+
+  .intro img {
+    width: 400px;
+    padding-top: 40px;
+  }
+
+  .hi {
+    grid-row: 2/2;
+    color: #e61d59;
+    font-family: "DM Serif Display", serif;
+    font-size: 42px;
+    padding-left: 50px;
+  }
+
+  .introInfo {
+    color: black;
+    font-size: 18px;
+    padding-right: 45px;
+    padding-left: 50px;
+    margin: 0 auto;
+    padding-top: 140px;
+    font-family: "Reem Kufi", sans-serif;
+  }
+
+  .hello_btn a {
+    text-decoration: none;
+    background-color: #e61d59;
+    padding: 6px;
+    color: white;
+  }
+
+  .hello_btn:hover a {
+    background-color: black;
+  }
+
+  .myWorkContainer {
+    padding-top: 650px;
+  }
+
+  #someOfMyWork {
+    background-color: #f1e7e5;
+    padding: 30px 30px 10px 30px;
+  }
+  .myWork {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f1e7e5;
+    height: 450px;
+    grid-column-gap: 15px;
+  }
+
+  #myWorkTitle {
+    text-align: left;
+    color: #e61d59;
+    font-size: 20px;
+  }
+
+  .myWorkImage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .proj_btn {
+    text-align: left;
+  }
+
+  .proj_btn a {
+    text-decoration: none;
+    background-color: #e61d59;
+    padding: 6px;
+    color: white;
+    font-size: 13px;
+    font-family: "Reem Kufi", sans-serif;
+    justify-content: left;
+  }
+
+  .proj_btn:hover a {
+    background-color: black;
+  }
+
+  .interestsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4em;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+  }
+
+  .interestsContainer a {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e61d59;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+  }
+}
+
