@@ -322,12 +322,14 @@ h3 {
     grid-row-gap: 40px;
   }
 
+ 
+
   .iPhones {
     width: auto;
   }
 
   .iPhones img {
-    width: 350px;
+    width: 250px;
   }
 
   .webGifs {
@@ -335,12 +337,13 @@ h3 {
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 30px;
     padding-top: 30px;
+    padding-bottom: 100px;
     
   
   }
 
   .webGifs img{
-    width: 800px;
+    width: 500px;
   
   }
 
