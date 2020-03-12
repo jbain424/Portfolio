@@ -16,6 +16,7 @@ body {
   grid-template-columns: 20% 60% 20%;
 }
 
+
 a:active {
   color: #e61d59;
 }
@@ -74,35 +75,10 @@ a:active {
   }
 
   .navbar {
-    overflow: hidden;
-    top: 0;
-    width: 100%;
     position: fixed;
-  }
-
-  nav {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    font-family: "Reem Kufi", sans-serif;
-    color: black;
-    background-color: white;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 75px;
-    justify-content: space-evenly;
-  }
-
-  nav a {
-    text-align: center;
-    padding-top: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
-
-  nav img {
-    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
   }
 
   .aboutMe {
@@ -113,6 +89,7 @@ a:active {
     color: #e61d59;
     font-size: 70px;
   }
+  
   .bio {
     padding: 20px 200px 100px 200px;
     text-align: left;
