@@ -65,6 +65,62 @@ a:active {
 }
 
 
+@media (min-width: 700px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .aboutMe {
+    font-family: "DM Serif Display", serif;
+    height: 75px;
+    padding-top: 120px;
+    padding-left: 40px;
+    color: #e61d59;
+    font-size: 70px;
+  }
+  
+  .bio {
+    padding: 20px 100px 100px 100px;
+    text-align: left;
+
+  }
+  
+  .bio p {
+    font-size: 22px; 
+    line-height: 28px;
+    font-family: "Reem Kufi", sans-serif;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e61d59;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+  }
+}
+
 @media (min-width: 1000px) {
   html,
   body {
@@ -93,10 +149,11 @@ a:active {
   .bio {
     padding: 20px 300px 100px 300px;
     text-align: left;
+
   }
   
   .bio p {
-    font-size: 20px; 
+    font-size: 200px; 
     font-family: "Reem Kufi", sans-serif;
   }
 
