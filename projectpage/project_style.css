@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
   font-family: "Reem Kufi", sans-serif;
   background-color: #f1e7e5;
+  background-image: linear-gradient(to bottom right, #fff, #f1e7e5);
 }
 
 /* NAVBAR */
