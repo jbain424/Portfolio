@@ -194,7 +194,7 @@ a:active {
   .intro-img {
     border-radius: 300px;
     max-width: 100%;
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   .intro-text {
@@ -642,6 +642,164 @@ a:active {
     padding-top: 100px; */
     display: grid;
     grid-template-columns: 30% 70%;
+    padding: 75px;
+
+  }
+
+  .intro-img {
+    border-radius: 300px;
+    max-width: 100%;
+    margin-top: 100px;
+    
+    
+  
+  }
+
+  .intro-text {
+    font-family: "DM Serif Display", serif;
+    padding: 100px 25px 0 35px;
+    color: #e61d59;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .intro-info {
+    margin: 0;
+    word-wrap: normal;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 20px;
+    padding: 25px 45px 0 35px;
+    letter-spacing: 0.2px;
+    width: 600px;
+  }
+
+  .intro-info a {
+    color: #e61d59;
+  }
+
+  .info_btn {
+    padding-top: 35px;
+    padding-left: 35px;
+  }
+
+  .hello-btn {
+    text-decoration: none;
+    background-color: #e61d59;
+    padding: 6px;
+    color: white;
+  }
+
+  .info-btn a:hover {
+    background-color: #000;
+  }
+
+  /* MY WORK */
+
+  .my-work-section {
+    background: #fff;
+    /* margin-top: 50px; */
+    padding-bottom: 40px;
+  }
+
+  .section-title {
+    margin: 0;
+    color: #e61d59;
+    font-family: "DM Serif Display", serif;
+    text-align: left;
+    padding: 25px 25px 0 25px;
+    font-size: 30px;
+  }
+
+  .project {
+    padding-top: 40px;
+  }
+
+  .project-img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .project-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    text-align: left;
+    color: #e61d59;
+    padding-left: 25px;
+    margin: 0;
+  }
+
+  .project-info {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    padding: 0 25px 0 25px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .project-btn {
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+
+  .project-btn a {
+    text-decoration: none;
+    background-color: #e61d59;
+    padding: 6px;
+    color: white;
+    font-size: 13px;
+    font-family: "Reem Kufi", sans-serif;
+  }
+
+  .project-btn a:hover {
+    background: #000;
+  }
+
+  /* OTHER INTERESTS */
+
+  .other-interests-section .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .other-interests-section a {
+    padding: 0 25px 50px 25px;
+  align-content: center;
+  margin-left: 40px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e61d59;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  /* Intro Section */
+
+  .intro-section .container {
+    text-align: left;
+    background: #f1e7e5;
+   /* padding-bottom: 100px;
+    padding-top: 100px; */
+    display: grid;
+    grid-template-columns: 30% 70%;
     padding: 100px;
 
   }
@@ -787,3 +945,4 @@ a:active {
     font-size: 16px;
   }
 }
+
