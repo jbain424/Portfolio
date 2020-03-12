@@ -153,7 +153,8 @@ a:active {
   }
   
   .bio p {
-    font-size: 200px; 
+    font-size: 22px;
+    line-height: 28px; 
     font-family: "Reem Kufi", sans-serif;
   }
 
