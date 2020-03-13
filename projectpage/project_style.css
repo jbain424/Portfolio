@@ -196,13 +196,16 @@ h3 {
     padding-bottom: 100px;
     margin: 0;
   }
+
   .project-title {
     margin: 0;
   }
+
   .frameworks p {
     margin: 0;
     font-size: 15px;
   }
+
   .info {
     font-size: 15px;
   }
@@ -259,7 +262,7 @@ h3 {
   .left-side {
     grid-column: 1/2;
     position: fixed;
-    width: 375px;
+    width: 350px;
     padding-bottom: 100px;
     margin: 0;
   }
