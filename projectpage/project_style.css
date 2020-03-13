@@ -186,12 +186,13 @@ h3 {
     display: grid;
     grid-template-columns: 40% 60%;
     padding-top: 120px;
+
   }
 
   .left-side {
     grid-column: 1/2;
     position: fixed;
-    width: 300px;
+    width: 250px;
     padding-bottom: 100px;
     margin: 0;
   }
